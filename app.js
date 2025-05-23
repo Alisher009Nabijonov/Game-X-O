@@ -43,7 +43,9 @@ var drawboard = document.getElementById('tictactoe'),
 ];
 
 
-//drawingWithDelay(winnerset[1], 0.5, 0.5);
+
+
+
 
 
 HTMLElement.prototype.addClass = function(el) { 
@@ -56,7 +58,9 @@ HTMLElement.prototype.removeClass = function(el) {
 // drawing svg elemts  
 // if var element contains more then one html element, do delay between each animation to                                                   // achieve hand drawing effect  
 // if element has childs,
-// check for the elemts nodes
+
+
+
 // Loop through an array of elements, if element's childs
 //nodeType = 1 ad some style: animation to it with delay beetwen each node
 function drawingWithDelay(element, newTime, newDelay) {     
@@ -90,6 +94,10 @@ if (element.hasChildNodes())  {
 // find html id element using (player?val plus signNumber) sigNumber - is index of click event from claim function
 // draw sign than change turn by swich the boolen of player var
         
+
+
+
+
    function setPlayer(signNumber) {                         
      if (player1) {     
         board[signNumber] = player1val;
@@ -255,6 +263,9 @@ for (var i = 0; i<board.length; i++) {
  } 
 
 // reset button
+
+
+
 // click button on tic tac toe board
 for (var i=0; i < tiles.length; i++) {
 tiles[i].addEventListener('click', claim);
