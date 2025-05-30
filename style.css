@@ -18,7 +18,7 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  width: 700px;
+  width: 600px;
   height: 500px;
   background-image: 
     -webkit-repeating-linear-gradient(
@@ -67,7 +67,7 @@ body {
   position: absolute;
   content: "";
   left: auto;
-  max-width:300px;
+  max-width: 300px;
   background: white;
   transform: rotate(-3deg);
 }
@@ -235,9 +235,3 @@ transform: scale(1.4);
   0% { opacity: 0;}   
   100% {opacity: 1;}
 }
-
-
-
-
-
-
